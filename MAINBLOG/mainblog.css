@@ -64,11 +64,17 @@ body {
 
 .container {
     /* border: 1px solid red; */
-    width: 900px;
+    width: 1100px;
     height: 1000px;
     margin: auto;
     margin-top: 50px;
+    background-color: white;
+    padding: 20px;
+}
 
+.container h1 {
+    text-align: center;
+    margin: 20px;
 }
 
 .atas {
@@ -101,25 +107,81 @@ body {
 .atas-kiri img {
    width: 625px;
    height: 393px;
+   border-radius: 10px;
 }
 
 .atas-kanan p {
     font-size: 10px;
-    text-align: center;
+    /* text-align: center; */
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
 
 
-.atas-kanan h2 {
+/* .atas-kanan h2 {
     text-align: center;
 }
 
+.atas-kanan h6 {
+    text-align: center;
+}*/
+
 .text {
-    margin: auto;
+    /* border: 1px solid red; */
+    width: 100%;
+} 
+
+
+.text h2 {
+    font-weight: 100;
 }
 
 
+
+.text img {
+    width: 50px;
+    height: 50px;
+}
+
+.date {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.time {
+    margin: auto;
+    /* border:  1px solid red; */
+}
+
+
+
+
+
+.date .jam {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.technologies {
+    /* border: 1px solid red; */
+}
+
+.tech1 {
+    /* border: 1px solid red; */
+    flex-grow: 1;
+}
+
+.tech2 {
+    /* border: 1px solid black; */
+    flex-grow: 1;
+}
+
+.icon {
+    display: flex;
+}
 
 
 /* bagian bawah */
@@ -130,4 +192,11 @@ body {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+
+.bawah p {
+    text-indent: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }

@@ -103,8 +103,21 @@ body {
 .checkbox {
     /* border: 1px solid black; */
     display: flex;
-    justify-content: center;
 }
+
+.checkbox1 {
+  /* border: 1px solid red; */
+  flex-grow: 1;
+  
+}
+
+.checkbox2 {
+  /* border: 1px solid red; */
+  flex-grow: 1;
+}
+
+
+
 
 .checkbox label {
   font-weight: bolder;
@@ -144,6 +157,39 @@ body {
     color: white;
     font-weight: bold;
     border-radius: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.date {
+  /* border: 1px solid red; */
+  display: flex;
+  width: 300px;
+  font-weight: bolder;
+  margin: 20px 10px;
+}
+
+.sectionDate1 {
+  /* border: 1px solid red; */
+  flex-grow: 1;
+}
+
+.sectionDate2 {
+  /* border: 1px solid red; */
+  flex-grow: 1;
+}
+
+.date input{
+  border-radius: 10px;
+  padding: 5px;
+  background: none;
+  border: none;
+  background-color: white;
+
 }
 /* bagian container 1 */
 
@@ -154,7 +200,7 @@ body {
 
 #container2 {
     /* border: 1px solid red; */
-    width: 710px;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;

@@ -23,9 +23,8 @@ tombol.addEventListener('click', () => {
         alert("subject harus di isi")
     } else if (message == "") {
         alert("message harus di isi")
-    }
-
-    const defaultEmail = "intizamkz@gmail.com";
+    }else {
+          const defaultEmail = "intizamkz@gmail.com";
 
 
     let mailTo = document.createElement('a');
@@ -33,6 +32,15 @@ tombol.addEventListener('click', () => {
     mailTo.setAttribute('href', `mailto:${defaultEmail}?subject=${select}&body=Halo nama saya ${name}, saya ingin ${message} tolong hubungin saya ${phone}`)
 
     mailTo.click()
+        
+        
+        
+        
+        
+        
+    }
+
+  
 
 
 

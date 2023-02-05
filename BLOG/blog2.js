@@ -91,6 +91,7 @@ const showing = () => {
           height: 350px;
           border-radius: 3px;
           margin: auto;
+          margin-top: 16px;
           background-color: white;
           border-radius: 20px;
           overflow: hidden;
